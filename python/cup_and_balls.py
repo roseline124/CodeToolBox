@@ -13,5 +13,5 @@ def cup_and_balls(times, *args) :
     print(result)
 
 
-cup_and_balls(10, '월', '화', '수', '목', '금'  )
+cup_and_balls( 7, '요섭', '채연', '기완', '도형'  )
 
