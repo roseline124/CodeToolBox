@@ -12,7 +12,7 @@ import re
 
 def hangul_only(string) :
 
-    not_hangul_pattern = re.compile(r'[^가-힣]')
+    not_hangul_pattern = re.compile(r'[^가-힣]') # 한글 제외 
     string = re.sub(not_hangul_pattern, '', string)
 
     return string 
