@@ -42,6 +42,6 @@ def full_age(birth_date) :
 
     return age 
 
-birthday = (1996, 1, 24)
+birthday = (2000, 1, 24)
 print(f'{counting_age(birthday)}세')
 print(f'만 {full_age(birthday)}세')
