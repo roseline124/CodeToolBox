@@ -31,7 +31,6 @@ int stoneGame(int number){ // 현재 돌의 수
             break;
         } 
     }  
-
     return t; 
 }
 
